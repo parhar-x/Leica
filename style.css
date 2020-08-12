@@ -193,6 +193,12 @@ ul li a{
 /* Media Queries */
 
 @media(max-width:768px){
+    
+    ul li{
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
+}
 
     #home .showcase h2{
         color: #fafafa;
