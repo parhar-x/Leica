@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Global */
+h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: "Lobster", sans-serif;
+    font-weight: normal;
+}
+h3{
+    font-weight: normal;
+}
+
+/* main-content */
+
+#main-content{
+    background: radial-gradient(#525252, #131313);
+    width: 100%;
+    padding-bottom: 2.5rem;
+}
+.nav-container{
+    padding: 1.5rem;
+    width: 80%;
+    margin: auto;
+}
+.logoheading{
+    border: #f54538 solid 1px;
+    border-radius: 20rem;
+    background-color: #f54538;
+    padding: 0.2rem;
+    color: #fff;
+    display: inline;
+}
+
+nav{
+    float: right;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 2rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fafafa;
+}
+
+/* Home */
+
+#home .showcase{
+    width: 80%;
+    margin: auto;
+}
+
+#home .showcase h2{
+    color: #fafafa;
+    margin-top: 3rem;
+    font-size: 5rem;
+}
+
+#home .showcase img{
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+
+#home .showcase .info {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 60%;
+    text-align: left;
+}
+
+#home .showcase .info h3{
+    color:#fafafa;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#home .showcase .info p{
+    color:#fafafa;
+    font-size: 1.5rem;
+}
+
+/* Features */
+
+#features{
+        padding:1rem 0  30rem 0;
+}
+
+#features .container{
+    width: 80%;
+    margin: auto;
+}
+
+#features .container .feature-heading{
+    color: #fafafa;
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+/* Features Boxes */
+
+#features .boxes{
+    width: 80%;
+    margin: auto;
+}
+
+#features .box{
+    width: 30%;
+    float: left;
+    margin:0 1rem 0 1rem;
+}
+
+#features .box-img img{
+    width: 100%;
+}
+.box-img{
+    width: 100%;
+    border: 1px #fafafa solid;
+    background-color: #fafafa;
+    border-radius: 1rem 1rem 1rem 1rem;
+    overflow: hidden;
+    line-height: 1;
+}
+
+
+
+#features .box-heading{
+    font-size:2rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+#features .box-para{
+    font-size:1.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+
+/* soon */
+
+#soon .soon-img-heading{
+    width: 80%;
+    margin: auto;
+    padding: 8rem 0;
+    text-align: center;
+}
+
+#soon .soon-img-heading .soon-heading{
+    color:#fafafa;
+    font-size: 3rem;
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+}
+
+#soon .soon-img-heading .circle{
+    padding: 5rem 0;
+    width: 35%;
+    z-index: 1;
+}
+
+#soon .soon-img-heading .camera-soon{
+    padding: 5rem 0;
+    width: 35%;
+    position: absolute;
+    left: 35%;
+}
+
+
+/* Footer */
+
+#footer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    color: #eeeeee;
+}
+
+
+/* Media Queries */
+
+@media(max-width:768px){
+
+    #home .showcase h2{
+        color: #fafafa;
+        margin-top: 2.5rem;
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    #home .showcase img{
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+
+    #home .showcase{
+        width: 100%;
+        margin: auto;
+    }
+
+    #home .showcase .info {
+        width: 80%;
+        text-align: center;
+        position: relative;
+        left: 10%;
+    }
+
+    #home .showcase .info h3{
+        color:#fafafa;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    #home .showcase .info p{
+        color:#fafafa;
+        font-size: 1.2rem;
+    }
+
+    /* Features */
+
+
+    #features .container{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    #features .box{
+        width: 100%;
+        float: left;
+        margin:2rem 1rem 2rem 1rem;
+    }
+
+    /* soon */
+
+    #soon .soon-img-heading{
+        width: 80%;
+        margin: auto;
+        padding: 8rem 0;
+        text-align: center;
+    }
+
+    #soon .soon-img-heading .soon-heading{
+        color:#fafafa;
+        font-size: 3rem;
+        font-family: "Lobster", sans-serif;
+        font-weight: bold;
+    }
+
+    #soon .soon-img-heading .circle{
+        padding: 6rem 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #soon .soon-img-heading .camera-soon{
+        padding: 5rem 0;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+
+}
